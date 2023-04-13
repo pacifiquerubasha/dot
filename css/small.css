@@ -1,0 +1,93 @@
+
+html{
+    overflow-x: hidden !important;
+}
+
+.form label{
+    width: 100%;
+    text-align: left;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.form div{
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    color: #cc0000;
+}
+
+input[type='submit'],
+.cta-hero{
+    color: rgb(2, 48, 2);
+    font-weight: 900;
+}
+
+input:focus{
+    outline: 3px solid #00e676;
+}
+
+body{
+    position: relative;
+}
+
+.smart-scroll{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.recommendation-title{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.recommendation-subtitle{
+    text-align: center;
+}
+
+.nav-scrolled{
+    box-shadow: rgba(2, 250, 27, 0.25) 0px 5px 5px -1px, rgba(235, 235, 241, 0.3) 0px 1px 3px -1px;
+}
+
+
+.nav-item a{
+    padding: 0 1rem .5rem .25rem !important;
+    transition: all ease-in-out 500ms
+}
+
+.nav-item a:hover{
+    color: #00e676 !important;
+    transform: scale(1.1);
+}
+
+.nav-item{
+    border-bottom: 2px solid black;
+    transition: all ease-in-out 500ms
+}
+
+.nav-item:hover{
+    border-bottom-color: #00e676;
+}
+
+@media only screen and (max-width:768px){
+    .recommendation-title{
+        margin-top: 0;
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    .recommendation-subtitle{
+        font-size: 3vw;
+    }
+
+    .recommendation-container{
+        border: 1px solid red;
+    }
+
+    .form label{
+        font-size: 1rem !important;
+    }
+}
+

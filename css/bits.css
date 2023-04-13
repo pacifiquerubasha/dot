@@ -6,7 +6,7 @@
     --main-bg: #191A19;
     --beige:#D8E9A8;
 }
-
+/* 00e676 */
 body{
     width: 100vw;
     margin: 0;
@@ -66,13 +66,16 @@ a{
     color: var(--beige) !important;
 }
 
-.hero-left button{
+.hero-left a{
     width: 6rem;
     transition: all ease-in-out 300ms;
     border: 1px solid var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+
 }
 
-.hero-left button:hover{
+.hero-left a:hover{
     background-color: transparent;
     color: var(--main-color);
 
